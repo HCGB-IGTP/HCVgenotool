@@ -33,8 +33,10 @@ from the string before the first `_` character that should be present in
 the filename.
 
 Examples of valid fastq filenames:
-    * 2_S1_L001_R1_001.fastq.gz -> sample name: "2", read 1.
-    * sample1_R2.fastq          -> sample name: "sample1", read 2.
+```
+2_S1_L001_R1_001.fastq.gz  # sample name = "2"; read = 1.
+sample1_R2.fastq           # sample name = "sample1", read = 2.
+```
 
 `ADAPTERS_FILE`
 
