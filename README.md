@@ -22,28 +22,40 @@ $./genotyping_pipeline.sh \
 ```
 
 ## Required arguments
-FASTQDIR: Folder where all the fastq files are contained. Only Illumina
- 		pair-end sequencing from PCR amplicons is accepted. One sample pair per
- 		file.
- 		IMPORTANT: *.fastq or *.fastq.gz are accepted. Read 1 must be specified
-		as *R1* and read 2 as *R2* in the filename. Sample name will be taken
- 		from the string before the first `_` character that should be present in
- 		the filename.
- 		Examples of valid fastq filenames:
- 			2_S1_L001_R1_001.fastq.gz -> sample name: "2", read 1.
- 			sample1_R2.fastq          -> sample name: "sample1", read 2.
-ADAPTERS_FILE: path to a fasta file containing adapter sequences used to
- 		create amplicons for sequencing. Only two adapters allowed, named as
- 		`>Forward` and `>Reverse` (`>F` and `>R` or `>f` and `r` is sufficient).
- 		Adapter sequence has to span only one line.
-REFERENCE: path to a fasta file containing HCV reference sequences.
-		Sequence names should follow the convention TS_XXXXX, where T is HCV
- 		type, S is HCV subtype and XXXXX is the sequence identifier.
-		HCV reference genomes are included in HCV_references/HCV_genotypes.fasta
-		with date January 1st 2017, downloaded from [here](https://talk.ictvonline.org/ictv_wikis/flaviviridae/hepacivirus/m/hepacivirus-files/6789)
-RESULTS_DIR: path to a folder where output results. If WORKINGDIR does not
- 		exist it will be created. If WORKINGDIR exists, program exits with
-		ERROR message.
+`FASTQDIR`
+
+Folder where all the fastq files are contained. Only Illumina pair-end sequencing from PCR amplicons is accepted. 
+One sample pair per	file.
+
+IMPORTANT: *.fastq or *.fastq.gz are accepted. Read 1 must be specified
+as *R1* and read 2 as *R2* in the filename. Sample name will be taken
+from the string before the first `_` character that should be present in
+the filename.
+
+Examples of valid fastq filenames:
+    * 2_S1_L001_R1_001.fastq.gz -> sample name: "2", read 1.
+    * sample1_R2.fastq          -> sample name: "sample1", read 2.
+
+`ADAPTERS_FILE`
+
+Path to a fasta file containing adapter sequences used to
+create amplicons for sequencing. Only two adapters allowed, named as
+`>Forward` and `>Reverse` (`>F` and `>R` or `>f` and `r` is sufficient).
+Adapter sequence has to span only one line.
+
+`REFERENCE`
+
+Path to a fasta file containing HCV reference sequences.
+Sequence names should follow the convention TS_XXXXX, where T is HCV
+type, S is HCV subtype and XXXXX is the sequence identifier.
+HCV reference genomes are included in HCV_references/HCV_genotypes.fasta
+with date January 1st 2017, downloaded from [here](https://talk.ictvonline.org/ictv_wikis/flaviviridae/hepacivirus/m/hepacivirus-files/6789)
+
+`RESULTS_DIR`
+
+Path to a folder where output results. If WORKINGDIR does not
+exist it will be created. If WORKINGDIR exists, program exits with
+ERROR message.
 
 Results will be written to `RESULTS_DIR` folder (summary table at `RESULTS_DIR/results.csv`).
 
