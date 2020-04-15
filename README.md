@@ -42,7 +42,7 @@ sample1_R2.fastq           # sample name = "sample1", read = 2.
 
 Path to a fasta file containing adapter sequences used to
 create amplicons for sequencing. Only two adapters allowed, named as
-`>Forward` and `>Reverse` (`>F` and `>R` or `>f` and `r` is sufficient).
+`>Forward` and `>Reverse` (`>F` and `>R` or `>f` and `>r` is sufficient).
 Adapter sequence has to span only one line.
 
 `REFERENCE`
