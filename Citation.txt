@@ -1,0 +1,5 @@
+If you use HCVgenotool software, please cite:
+
+A. Antuori, V. Montoya, D. Piñeyro, L. Sumoy, J. Joy, M. Krajden, S. González-Gómez, C. Folch, J. Casabona, L. Matas, J. Colom, V. Saludes, E. Martró; HepCdetect II Study Group. Characterization of acute HCV infection and transmission networks among people who inject drugs in Catalonia, Spain (HepCdetect II Study) (submitted for publication)
+
+(last updated June 17, 2020)
