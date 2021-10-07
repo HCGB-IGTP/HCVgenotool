@@ -1,5 +1,5 @@
 If you use HCVgenotool software, please cite:
 
-A. Antuori, V. Montoya, D. Piñeyro, L. Sumoy, J. Joy, M. Krajden, S. González-Gómez, C. Folch, J. Casabona, L. Matas, J. Colom, V. Saludes, E. Martró; HepCdetect II Study Group. Characterization of acute HCV infection and transmission networks among people who inject drugs in Catalonia: usefulness of dried blood spots (submitted for publication)
+Antuori A, Montoya V, Piñeyro D, Sumoy L, Joy J, Krajden M, González-Gómez S, Folch C, Casabona J, Matas L, Colom J, Saludes V, Martró E; HepCdetect II Study Group. Characterization of Acute HCV Infection and Transmission Networks in People Who Currently Inject Drugs in Catalonia: Usefulness of Dried Blood Spots. Hepatology. 2021 Aug;74(2):591-606. doi: 10.1002/hep.31757. Epub 2021 Aug 25. PMID: 33609288.
 
-(last updated June 17, 2020)
+(last updated October 7, 2021)
